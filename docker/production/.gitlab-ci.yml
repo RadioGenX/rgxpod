@@ -55,6 +55,7 @@ docker-build-main-release:
   only:
     refs:
       - main
+      - 1.x
 
 docker-build-alpha-beta-release:
   stage: build
