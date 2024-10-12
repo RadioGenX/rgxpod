@@ -1,24 +1,23 @@
 @layer base {
   :root {
-    --color-accent-base: 174 100% 29%;
-    --color-accent-hover: 172 100% 17%;
-    --color-accent-muted: 131 100% 12%;
-    --color-accent-contrast: 0 0% 100%;
-    --color-heading-foreground: 172 100% 17%;
-    --color-heading-background: 111 64% 94%;
-    --color-background-elevated: 0 0% 100%;
-    --color-background-base: 173 44% 96%;
-    --color-background-navigation: 172 100% 17%;
-    --color-background-navigation-active: 131 100% 12%;
-    --color-background-header: 172 100% 17%;
-    --color-background-highlight: 111 64% 94%;
-    --color-background-backdrop: 0 0% 50%;
-    --color-border-subtle: 111 42% 86%;
-    --color-border-contrast: 0 0% 0%;
-    --color-border-navigation: 131 100% 12%;
-    --color-text-base: 158 8% 3%;
-    --color-text-muted: 172 8% 38%;
-  }
+    --color-accent-base: 120 100% 50%;
+    --color-accent-hover: 60 100% 50%;
+    --color-accent-muted: 270 100% 28.2%;
+    --color-accent-contrast: 120 100% 50%;
+    --color-heading-foreground: 120 100% 50%;
+    --color-heading-background: 0 0% 0%;
+    --color-background-elevated: 0 0% 0%;
+    --color-background-base: 0 0% 0%;
+    --color-background-navigation: 0 0% 0%;
+    --color-background-navigation-active: 0 0% 0%;
+    --color-background-header: 0 0% 0%;
+    --color-background-highlight: 0 0% 0%;
+    --color-background-backdrop: 120 100% 50%;
+    --color-border-subtle: 120 100% 50%;
+    --color-border-contrast: 120 100% 50%;
+    --color-border-navigation: 120 100% 50%;
+    --color-text-base: 120 100% 50%;
+    --color-text-muted: 270 100% 28.2%;  }
 
   body {
     color: hsl(var(--color-text-base));
