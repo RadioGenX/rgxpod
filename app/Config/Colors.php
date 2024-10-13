@@ -124,27 +124,28 @@ class Colors extends BaseConfig
             'text-base'  => [253, 8, 3],
             'text-muted' => [254, 8, 38],
         ],
-        /* Black color */
+        /* RealGenX */
         'onyx' => [
-            'accent-base'     => [240, 17, 2],
-            'accent-hover'    => [240, 17, 17],
-            'accent-muted'    => [240, 17, 17],
+            'accent-base'     => [120, 100, 50],
+            'accent-hover'    => [60, 100, 50],
+            'accent-muted'    => [270, 100, 28.2],
             'accent-contrast' => [0, 0, 100],
 
-            'heading-foreground' => [240, 17, 17],
-            'heading-background' => [240, 17, 94],
+            'heading-foreground' => [120, 100, 50],
+            'heading-background' => [0, 0, 0],
 
-            'background-elevated'  => [0, 0, 100],
-            'background-base'      => [240, 17, 96],
-            'background-header'    => [240, 12, 17],
-            'background-highlight' => [240, 17, 94],
-            'background-backdrop'  => [0, 0, 50],
+            'background-elevated'  => [0, 0, 0],
+            'background-base'      => [0, 0, 0],
+            'background-header'    => [0, 0, 0],
+            'background-highlight' => [0, 0, 0],
+            'background-backdrop'  => [120, 100, 50],
 
-            'border-subtle'   => [240, 17, 86],
-            'border-contrast' => [0, 0, 0],
+            'border-subtle'   => [120, 100, 50],
+            'border-contrast' => [120, 100, 50],
 
-            'text-base'  => [240, 8, 3],
-            'text-muted' => [240, 8, 38],
+            'text-base'  => [120, 100, 50],
+            'text-muted' => [270, 100, 28.2],
         ],
+
     ];
 }
